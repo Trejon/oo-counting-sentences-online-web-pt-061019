@@ -18,8 +18,8 @@ true : false
   end
 
   def count_sentences
-#string.squeeze('.!?').count('.!?')
 sentences = self.split(/[.?!]/)
+ sentences.delete_if{|sentence| sentence.empty?}
 sentences.length 
   end
 end
