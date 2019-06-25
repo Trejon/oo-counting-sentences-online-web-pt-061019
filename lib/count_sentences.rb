@@ -18,6 +18,7 @@ true : false
   end
 
   def count_sentences
+sentences = self.split("!,")
 self.length 
   end
 end
