@@ -18,6 +18,6 @@ true : false
   end
 
   def count_sentences
-
+self.length 
   end
 end
