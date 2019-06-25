@@ -20,6 +20,6 @@ true : false
   def count_sentences
 #string.squeeze('.!?').count('.!?')
 sentences = self.split(/[.?!]/)
-self.length 
+sentences.length 
   end
 end
